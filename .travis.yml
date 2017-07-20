@@ -1,6 +1,5 @@
 language: bash
 
 script:
-    - echo foo
-    - false
+    - echo "foo bar"
 
