@@ -10,6 +10,3 @@ notifications:
     on_success: change
     on_failure: always
     on_pull_requests: false
-  email:
-    on_success: change
-    on_failure: always
