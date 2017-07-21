@@ -2,7 +2,6 @@ language: bash
 
 script:
     - echo "foo bar"
-    - false
 
 notifications:
   slack:
