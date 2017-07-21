@@ -3,3 +3,10 @@ language: bash
 script:
     - echo "foo bar"
 
+notifications:
+  slack:
+    rooms:
+      # gitlab channel
+      - secure: q0C8EO1oEMRVBfGbL/tVkZuOyLu57dLctO0G5p86QeylIB0oqB2evob4DsAn2XrFJcVpzGPqQ1D7klC/cj4HLy899AbqOX3A19CupFL+ktQvtTE5ToAyxWAknrPDPH1qOckCX8mNCjzu+uG5/EDFd6FG6tUpeMXG7lI+P4ybBisN0YCkWweXJGnwnwuvh1CMWsrPcgVQVVWOkMFm6hTtxGHYrNF3bi3h/zMsdnjqX8zFsdiamg6GrhER2kTYBS9RTdWI3eLrtDJBVjfZ5I2Azll+KVTaPlg42YgtS6LVvPFU8YP5QdWeNuVJaNyJstmGNA79pVrF5D3E0JX+KE3jP/AeTiq89dWmDx6JQSUSiimI8L3HOAEx8RAPZRVDC8kgnCV6Ldqj03qzUiSY0H0LRpFi8ltWwjwaxN4YuXvhwT/j7XKeAbdKivh8DxoGI/xZZWO++nei/OeWKO2ZI/z/3jMaIZRfcXbYfj3JODD393YHGyJYAJ4Y6uog1vmhndTI3554Fxu/IxEdmrVwPqo/ikF/s9FSivVqpPtRrPuxNFPcxFqBgWOFIpypX0C2W9Kky2mtIlITe8bnoClBUh9e4WShXpHSOPoD3BjK2bWud7HaAYWY0TNvI4ANHj1LIrJ8K9OWlmQioIdduKf77DWQKyN/hCc7irZ3qh6jCSOEUBo=
+    on_success: change
+    on_failure: always
