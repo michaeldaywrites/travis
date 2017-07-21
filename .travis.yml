@@ -1,7 +1,7 @@
 language: bash
 script:
 - echo "foo bar"
-- false
+- echo "fixed"
 
 notifications:
   slack:
