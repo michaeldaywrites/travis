@@ -1,7 +1,6 @@
 language: bash
 script:
-- echo "foo bar"
-- echo "still fixed"
+- echo "foo"
 
 # notifications:
 #   slack:
